@@ -16,7 +16,7 @@ function Hero() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <h1>Hey There,</h1>
+        
           <h2>
             I'm <span className="highlight">chandana!</span>
           </h2>
