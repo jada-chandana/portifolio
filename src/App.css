@@ -1,0 +1,16 @@
+/* General Button Style */
+.btn {
+  display: inline-block;
+  margin: 10px 5px 0 0;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #fbbf24;
+  color: #222;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e0a921;
+}

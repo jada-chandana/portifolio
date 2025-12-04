@@ -1,0 +1,94 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #2b1e4a;
+  color: white;
+  padding: 0 2rem;
+}
+
+/* Layout */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+/* Text Section */
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+.highlight {
+  color: #0a84ff;
+}
+
+.role {
+  font-size: 1.5rem;
+  color: #ffc300;
+  margin-bottom: 1rem;
+}
+
+.summary {
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Image Wrapper */
+.hero-image-wrapper {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Rotating Arc Ring */
+.radial-border {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  padding: 6px;
+  z-index: 1;
+
+  /* Create arc */
+  mask: conic-gradient(#000 0deg 260deg, transparent 260deg 360deg);
+
+  /* Arc color */
+  background: #935b9b;
+
+  /* Rotation animation */
+  animation: rotateArc 3s linear infinite;
+}
+
+@keyframes rotateArc {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Image */
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+

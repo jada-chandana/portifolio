@@ -1,0 +1,96 @@
+.projects {
+  padding: 60px 0;
+  background-color: #2b1e4a; 
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  width:70%;
+  margin-left: 20%;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image + Tech Icons stacked vertically */
+.project-image {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Tech icons below image */
+.tech-icons {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.tech-icon {
+  font-size: 28px;
+  color: #0066ff;
+}
+
+.project-details {
+  flex: 1;
+  padding: 20px;
+  color: #fff;
+}
+
+.project-buttons {
+  margin-top: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.code-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+.code-btn:hover {
+  background-color: #555;
+}
+
+.live-btn {
+  background-color: #0066ff;
+  color: #fff;
+}
+
+.live-btn:hover {
+  background-color: #0051cc;
+}
