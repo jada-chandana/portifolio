@@ -82,16 +82,9 @@ Built for efficient monitoring and decision-making across various workflows.`,
 
               {/* Buttons */}
               <div className="project-buttons">
-                {/* {project.code && (
-                  <a
-                    href={project.code}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn code-btn"
-                  >
-                    Github Code
-                  </a>
-                )} */}
+
+            
+
                 {project.demo && (
                   <a
                     href={project.demo}
