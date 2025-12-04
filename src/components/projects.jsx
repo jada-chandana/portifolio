@@ -82,7 +82,7 @@ Built for efficient monitoring and decision-making across various workflows.`,
 
               {/* Buttons */}
               <div className="project-buttons">
-                {project.code && (
+                /* {project.code && (
                   <a
                     href={project.code}
                     target="_blank"
@@ -91,7 +91,7 @@ Built for efficient monitoring and decision-making across various workflows.`,
                   >
                     Github Code
                   </a>
-                )}
+                )} */
                 {project.demo && (
                   <a
                     href={project.demo}
